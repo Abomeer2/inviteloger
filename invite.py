@@ -14,7 +14,7 @@ class SYS :
 class VAR :
     GUILD = 896126367903645717 # Guild ID
     LOG = 944301795428147210 # Log Channel ID
-    CREATOR = "ArDaVaN81"
+    CREATOR = "ilness"
 
 # Main Variables
 intents = discord.Intents.default()
@@ -67,8 +67,8 @@ async def inv(ctx, member: discord.Member = None):
         colour = 0x00FF91
     )
     embed._timestamp = datetime.datetime.utcnow()
-    embed.set_footer(text = "ɪɴᴠɪᴛᴇ ᴛʀᴀᴄᴋᴇʀ ʙʏ ᴀʀᴅᴀᴠᴀɴ | ")
-    embed.set_author(name = "ʙʏ ꜱᴀᴛᴀɴ")
+    embed.set_footer(text = "ɪɴᴠɪᴛᴇ ᴛʀᴀᴄᴋᴇʀ ʙʏ ILNESS | ")
+    embed.set_author(name = "ʙʏ ILNESS")
     
     # 3 Seconds Of Typing Status & Then Result
     async with ctx.typing():
